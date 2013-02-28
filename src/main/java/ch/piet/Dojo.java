@@ -10,7 +10,7 @@ public class Dojo {
 	
 	public String printInAscii(int i) {
 		for (char ch : parseInput(i)) {
-			buildDisplayLines(NumbersAsAscii.getNumberCharAsAsciiStringArray(ch));
+			buildDisplayLines(AsciiNumbersMap.getNumberCharAsAsciiStringArray(ch));
 		}
 		return top + EOL + middle + EOL + bottom;
 	}

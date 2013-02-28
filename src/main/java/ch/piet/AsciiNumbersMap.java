@@ -3,7 +3,7 @@ package ch.piet;
 import java.util.HashMap;
 import java.util.Map;
 
-public class NumbersAsAscii {
+public class AsciiNumbersMap {
 
 	private static final Map<Character, String[]> numbers = new HashMap<>();
 	
